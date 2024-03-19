@@ -65,6 +65,17 @@ print(f"{ALL_Canidates[2]}: {Doane_percentage} ({three_votes})")
 print("======================")
 print(f'Winner: {YOUWON}')
 
+output = r"C:\Users\Sezy\OneDrive\python-challenge\PyPoll\analysis\something.txt"
+with open(output, 'w') as textfile:
+    textfile.write("Election Results\n")
+    textfile.write("====================\n")
+    textfile.write(f"{ALL_Canidates[0]}: {Stockham_percentage} ({one_votes})\n")
+    textfile.write(f"{ALL_Canidates[1]}: {DeGette_percentage} ({two_votes})\n")
+    textfile.write(f"{ALL_Canidates[2]}: {Doane_percentage} ({three_votes})\n")
+    textfile.write("======================\n")
+    textfile.write(f'Winner: {YOUWON}\n')
+
+
 
 
     
