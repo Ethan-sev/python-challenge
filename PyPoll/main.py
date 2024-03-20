@@ -58,7 +58,7 @@ else:
     #probably could have done a better job of looping through but I couldnt figure it out.     
 print("Election Results")
 print("====================")
-print(Total_votes)
+print(f"Total Votes: {Total_votes}")
 print(f"{ALL_Canidates[0]}: {Stockham_percentage} ({one_votes})")
 print(f"{ALL_Canidates[1]}: {DeGette_percentage} ({two_votes})")
 print(f"{ALL_Canidates[2]}: {Doane_percentage} ({three_votes})")
@@ -69,7 +69,7 @@ output = r"C:\Users\Sezy\OneDrive\python-challenge\PyPoll\analysis\something.txt
 with open(output, 'w') as textfile:
     textfile.write("Election Results\n")
     textfile.write("====================\n")
-    textfile.write("{Total_votes}\n")
+    textfile.write(f"Total Votes : {Total_votes}\n")
     textfile.write(f"{ALL_Canidates[0]}: {Stockham_percentage} ({one_votes})\n")
     textfile.write(f"{ALL_Canidates[1]}: {DeGette_percentage} ({two_votes})\n")
     textfile.write(f"{ALL_Canidates[2]}: {Doane_percentage} ({three_votes})\n")
