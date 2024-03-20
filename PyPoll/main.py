@@ -8,7 +8,6 @@ csv_path = (r'C:\Users\Sezy\OneDrive\python-challenge\PyPoll\Resources\election_
 one_votes = 0
 two_votes = 0
 three_votes = 0
-Votes_per_canidate = 0
 Total_votes = 0 
 ALL_Canidates = []
 Stockham_percentage = 0 
@@ -56,7 +55,7 @@ else:
     winner = ALL_Canidates[2]
 
 
-           
+    #    
 print("Election Results")
 print("====================")
 print(f"{ALL_Canidates[0]}: {Stockham_percentage} ({one_votes})")
